@@ -19,7 +19,7 @@
 - Save a new Look using the following link:
     - user story line :  https://XXX.looker.com/explore/XXX/user_story_check?fields=user_story_line.user_id,user_story_line.session_id,user_story_line.date,user_story_line.event_name,user_story_line.url,user_story_line.campaign_id&sorts=user_story_line.date+desc&limit=500&query_timezone=UTC&vis=%7B%22type%22%3A%22table%22%7D&filter_config=%7B%7D&dynamic_fields=%5B%5D&origin=share-expanded
 - Define the following two constants in the manifest file:
-  - dataset_name: THe dataset name where your tables are created.
+  - dataset_name: The dataset name where your tables are created.
   - organization_id: Your KARTE organization ID found in the KARTE admin link (XXX in "https://admin.karte.io/p/XXX/user/").
 
 ### In KARTE

@@ -1,6 +1,7 @@
 connection: "plaid-bigquery"
 
 include: "*.view.lkml"                       # include all views in this project
+include: "*.dashboard"
 
 explore: user_story_check {
   view_name: user_story_line
