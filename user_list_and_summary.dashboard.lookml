@@ -1,9 +1,9 @@
 - dashboard: user_list_and_summary
-  title: user_list_and_summary
+  title: User List and Summary
   layout: newspaper
   elements:
-  - title: user_list
-    name: user_list
+  - title: User List
+    name: User List
     model: user_story
     explore: user_story_check
     type: table
@@ -16,8 +16,8 @@
     col: 0
     width: 24
     height: 8
-  - title: distribution of PV
-    name: distribution of PV
+  - title: Pageview Distribution
+    name: Pageview Distribution
     model: user_story
     explore: user_story_summary
     type: looker_column
@@ -31,8 +31,8 @@
     col: 0
     width: 24
     height: 5
-  - title: summary_first_5_event
-    name: summary_first_5_event
+  - title: Most Common First 5 Events
+    name: Most Common First 5 Events
     model: user_story
     explore: user_story_summary
     type: looker_grid
@@ -50,8 +50,8 @@
     col: 0
     width: 24
     height: 8
-  - title: summary_last_5_event
-    name: summary_last_5_event
+  - title: Most Common Last 5 Events
+    name: Most Common Last 5 Events
     model: user_story
     explore: user_story_summary
     type: looker_grid
