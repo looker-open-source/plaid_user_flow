@@ -1,5 +1,5 @@
 view: user_story_line {
-  sql_table_name: `prd-karte-per-client.@{dataset_name}.user_story_line` ;;
+  sql_table_name: `prd-karte-per-client.@{DATASET_NAME}.user_story_line` ;;
 
 
   dimension: key {
@@ -21,7 +21,7 @@ view: user_story_line {
     link: {
       label: "KARTE User Story"
       icon_url: "https://admin.karte.io/images/baisu/logo_mark.svg"
-      url: "https://admin.karte.io/p/@{organization_id}/user/{{value}}"
+      url: "https://admin.karte.io/p/@{ORGANIZATION_ID}/user/{{value}}"
     }
   }
 
@@ -30,8 +30,9 @@ view: user_story_line {
     sql: ${TABLE}.session_id ;;
     link: {
       label: "story line detail"
-      url:"/looks/XXX?&f[user_story_line.session_id]={{ value }}"
-      # put the look NO you registerd in XXX, please check the readme file
+      url:"/looks/@{SAVED_LOOK_NUMBER}?&f[user_story_line.session_id]={{ value }}"
+      # For this to correctly work, plesae insert the Look ID you registerd
+      # as the value of SAVED_LOOK_NUMBER in the manifest file.
     }
   }
 

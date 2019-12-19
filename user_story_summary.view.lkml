@@ -1,5 +1,5 @@
 view: user_story_summary {
-  sql_table_name: `prd-karte-per-client.@{dataset_name}.user_story_summary` ;;
+  sql_table_name: `prd-karte-per-client.@{DATASET_NAME}.user_story_summary` ;;
 
 
   dimension: key {
@@ -21,7 +21,7 @@ view: user_story_summary {
     link: {
       label: "KARTE User Story"
       icon_url: "https://admin.karte.io/images/baisu/logo_mark.svg"
-      url: "https://admin.karte.io/p/@{organization_id}/user/{{value}}"
+      url: "https://admin.karte.io/p/@{ORGANIZATION_ID}/user/{{value}}"
     }
   }
 
