@@ -12,5 +12,5 @@ constant: ORGANIZATION_ID {
 # by the README file. This is used to correctly link session_ids to
 # a drill path.
 constant: SAVED_LOOK_NUMBER {
-  value: ""
+  value: "48"
 }
